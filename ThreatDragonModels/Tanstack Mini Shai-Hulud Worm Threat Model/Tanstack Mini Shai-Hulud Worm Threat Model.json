@@ -891,6 +891,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2062,7 +2069,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "PRT",
-              "description": "",
+              "description": "pull_request_target",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
