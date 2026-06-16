@@ -152,7 +152,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "CI/CD pipeline",
-              "description": "",
+              "description": "Automated assembly line that runs whenever a developer submits new code",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
@@ -169,6 +169,13 @@
                 "5305411d-a7a4-4fa0-bda4-5351ab25409e",
                 "cb0c8b5a-30ad-42b2-8637-1bec823f2980"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -891,13 +898,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2252,6 +2252,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2335,7 +2336,6 @@
               ]
             },
             "id": "caa8ef73-66f5-4ff5-b277-8790609686a4",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Local Credentials",
