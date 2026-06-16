@@ -259,7 +259,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "TeamPCP",
-              "description": "",
+              "description": "The name given to the hacker group",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -496,7 +496,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Malicious Fork",
-              "description": "",
+              "description": "The fake TanStack code copy that has the malicious malware inside",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -511,8 +511,8 @@
           },
           {
             "position": {
-              "x": 175,
-              "y": 430.00000000000114
+              "x": 174.9999999999996,
+              "y": 435
             },
             "size": {
               "width": 140,
@@ -617,7 +617,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Payload\n(Exec. on Installation)",
-              "description": "",
+              "description": "The malicious payload that runs to get credentials",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -631,7 +631,7 @@
           },
           {
             "position": {
-              "x": 185,
+              "x": 184.9999999999996,
               "y": 605
             },
             "size": {
@@ -740,7 +740,7 @@
             "data": {
               "type": "tm.Store",
               "name": "C2 Server",
-              "description": "",
+              "description": "The Command and Control server that the attacker uses to receive the credentials",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -861,7 +861,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Workflow",
-              "description": "",
+              "description": "Where the TanStack misconfiguration of pull_request_target happened/lived.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -980,7 +980,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Build Cache",
-              "description": "",
+              "description": "The shared build cache area is used to save time in setting up the tools and files needed to download but that got poisoned so every time it was now called it picked up poisoned files.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1100,7 +1100,7 @@
             "data": {
               "type": "tm.Process",
               "name": "OIDC Publisher",
-              "description": "",
+              "description": "Where the key to publishing npm packages were held",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1224,7 +1224,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Runner Memory",
-              "description": "",
+              "description": "Where the secrets are hidden due to GitHub's action (RAM)",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1348,7 +1348,7 @@
             "data": {
               "type": "tm.Store",
               "name": "npm registry",
-              "description": "",
+              "description": "Where are the infected npm packages ended up",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1359,6 +1359,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1603,13 +1610,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1720,7 +1720,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Compromised\nAccount",
-              "description": "",
+              "description": "In the case of the 2nd wave (@antv attack) where they compromised a @antv account",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
