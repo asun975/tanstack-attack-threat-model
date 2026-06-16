@@ -16,7 +16,129 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 160,
+              "y": 190
+            },
+            "size": {
+              "width": 170,
+              "height": 530
+            },
+            "attrs": {
+              "label": {
+                "text": "Attacker Area"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "33313c6d-9ae9-41ed-a6f2-be9b1daa7416",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Attacker Area",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
+          },
+          {
+            "position": {
+              "x": 429.9999999999984,
+              "y": 190.00000000000256
+            },
+            "size": {
+              "width": 530,
+              "height": 540
+            },
+            "attrs": {
+              "label": {
+                "text": "GitHub + npm Area (trusted zone)"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "084f783e-2e14-44de-9105-46289abe3254",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "GitHub + npm Area (trusted zone)",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "c3ac3f3a-f5c0-4f56-bc5c-42b17c56f276"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1062,
+              "y": 190
+            },
+            "size": {
+              "width": 170,
+              "height": 530
+            },
+            "attrs": {
+              "label": {
+                "text": "Victim Area"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "39e157c4-652f-4957-8a3e-e92f1c47834c",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Victim Area",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "zIndex": -1,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 459.99999999999943,
+              "y": 230.0000000000012
+            },
+            "size": {
+              "width": 480,
+              "height": 350
+            },
+            "attrs": {
+              "label": {
+                "text": "CI/CD pipeline"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "c3ac3f3a-f5c0-4f56-bc5c-42b17c56f276",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "CI/CD pipeline",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
