@@ -1380,7 +1380,7 @@
           {
             "position": {
               "x": 1077,
-              "y": 334.00000000000017
+              "y": 380
             },
             "size": {
               "width": 140,
@@ -1910,6 +1910,53 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "c58be83f-8d22-42b0-9c13-465900a94c66",
+            "source": {
+              "cell": "b88e8332-173a-4afd-88b2-95fbcbaf5a45",
+              "port": "966d35e0-4ade-4f25-b005-6880cbaef6bd"
+            },
+            "target": {
+              "cell": "d21630c1-6f77-4a4a-9a26-78416eaafdac",
+              "port": "64dfce89-274e-45ae-8111-3d7b9df4ce83"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 188.74999999999818,
               "y": 885
@@ -2079,8 +2126,8 @@
           },
           {
             "position": {
-              "x": 1092,
-              "y": 565
+              "x": 1087,
+              "y": 610
             },
             "size": {
               "width": 120,
