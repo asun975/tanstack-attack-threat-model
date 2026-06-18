@@ -191,6 +191,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
+                "2fea6e2a-6c5f-49c1-a2c9-3aeb605d2e2c",
                 "bf17dec5-1f3e-44fd-a6aa-6dcacf7ee114"
               ],
               "containedElements": [
@@ -224,6 +225,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
+                "2fea6e2a-6c5f-49c1-a2c9-3aeb605d2e2c",
                 "9f66b2d3-a7e3-4022-a724-ae6610265205"
               ],
               "containedElements": [
@@ -294,6 +296,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
+                "2fea6e2a-6c5f-49c1-a2c9-3aeb605d2e2c",
                 "2b05970d-0ff3-4dee-91a7-f641e76bde2a"
               ],
               "containedElements": [
@@ -2177,6 +2180,62 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Publish Malware",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "32fadbc8-f007-455e-95bc-5f4a35a4dab4",
+                "7c702e7b-f6ed-47be-86bb-b61fef00375f",
+                "ca7f7e4e-4a33-4c38-900e-d3bb87de825b"
+              ]
+            },
+            "labels": [
+              "Publish Malware"
+            ],
+            "id": "2fea6e2a-6c5f-49c1-a2c9-3aeb605d2e2c",
+            "source": {
+              "cell": "e9ab127e-bdde-44fd-8202-86223f3de484",
+              "port": "97a6f49d-cd38-45b3-8080-da8d7acccc40"
+            },
+            "target": {
+              "cell": "265c1c81-434d-4cf5-9f26-3c7adba756e4",
+              "port": "67d7f138-137f-42cc-a4cb-8e8ed45d9fc1"
+            },
+            "vertices": [
+              {
+                "x": 450,
+                "y": 1676
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1086.9999999999936,
               "y": 900
@@ -2539,8 +2598,8 @@
           },
           {
             "position": {
-              "x": 190,
-              "y": 1677
+              "x": 184.99999999999818,
+              "y": 2000.000000000001
             },
             "size": {
               "width": 120,
@@ -3365,12 +3424,12 @@
                 "y": 2372
               },
               {
-                "x": 330,
-                "y": 2150
+                "x": 350,
+                "y": 2310
               },
               {
-                "x": 280,
-                "y": 1970
+                "x": 290,
+                "y": 2240
               }
             ],
             "zIndex": 32
@@ -3448,11 +3507,11 @@
           },
           {
             "position": {
-              "x": 161.99999999999818,
-              "y": 1370
+              "x": 159.99999999999818,
+              "y": 1390
             },
             "size": {
-              "width": 112.5,
+              "width": 130,
               "height": 60
             },
             "attrs": {
@@ -3472,8 +3531,8 @@
           },
           {
             "position": {
-              "x": 197.5,
-              "y": 1516
+              "x": 188.74999999999818,
+              "y": 1677.0000000000011
             },
             "size": {
               "width": 112.5,
