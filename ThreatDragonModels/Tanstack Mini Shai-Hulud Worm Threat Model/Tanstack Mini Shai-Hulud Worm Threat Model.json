@@ -1719,7 +1719,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#FF0000",
+                "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1766,7 +1766,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "#FF0000",
                 "targetMarker": {
                   "name": "block"
                 },
