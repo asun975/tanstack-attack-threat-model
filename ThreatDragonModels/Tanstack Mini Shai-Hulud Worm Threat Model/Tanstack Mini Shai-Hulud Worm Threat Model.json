@@ -42,8 +42,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "d9fe945d-65f7-4d6e-8380-1649f4858b02",
-                "595c26cb-e5da-4453-a060-0263385845b8"
+                "595c26cb-e5da-4453-a060-0263385845b8",
+                "d9fe945d-65f7-4d6e-8380-1649f4858b02"
               ],
               "containedElements": [
                 "70364b50-191b-4b2a-a55f-efd59b74c7c2",
@@ -1862,120 +1862,6 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "RAM",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "RAM"
-            ],
-            "id": "9a8addc0-c963-444f-b576-1ebb110b3e6e",
-            "source": {
-              "cell": "d21630c1-6f77-4a4a-9a26-78416eaafdac",
-              "port": "6d2c3f55-3731-41e3-b108-a4d1e7b94a9b"
-            },
-            "target": {
-              "cell": "caa8ef73-66f5-4ff5-b277-8790609686a4",
-              "port": "7ca28890-e5eb-47ff-8eac-d357fbd421c7"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Steal Credentials",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "33313c6d-9ae9-41ed-a6f2-be9b1daa7416",
-                "39e157c4-652f-4957-8a3e-e92f1c47834c"
-              ]
-            },
-            "labels": [
-              "Steal Credentials"
-            ],
-            "id": "d9fe945d-65f7-4d6e-8380-1649f4858b02",
-            "source": {
-              "cell": "caa8ef73-66f5-4ff5-b277-8790609686a4",
-              "port": "237fb227-ea33-44fd-ae5c-b339ca40c3b6"
-            },
-            "target": {
-              "cell": "32132dc4-0362-4123-b06a-f4e4e0166a47",
-              "port": "47e14e8d-4dd5-41aa-b8dd-1e40f1879ac0"
-            },
-            "vertices": [
-              {
-                "x": 970,
-                "y": 1040
-              },
-              {
-                "x": 730,
-                "y": 1100
-              },
-              {
-                "x": 480,
-                "y": 1100
-              },
-              {
-                "x": 330,
-                "y": 1040
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
                   "name": "block"
                 },
                 "strokeDasharray": null
@@ -2152,8 +2038,64 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Download",
+              "name": "Publish Malware",
               "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "32fadbc8-f007-455e-95bc-5f4a35a4dab4",
+                "7c702e7b-f6ed-47be-86bb-b61fef00375f",
+                "ca7f7e4e-4a33-4c38-900e-d3bb87de825b"
+              ]
+            },
+            "labels": [
+              "Publish Malware"
+            ],
+            "id": "2fea6e2a-6c5f-49c1-a2c9-3aeb605d2e2c",
+            "source": {
+              "cell": "e9ab127e-bdde-44fd-8202-86223f3de484",
+              "port": "97a6f49d-cd38-45b3-8080-da8d7acccc40"
+            },
+            "target": {
+              "cell": "265c1c81-434d-4cf5-9f26-3c7adba756e4",
+              "port": "67d7f138-137f-42cc-a4cb-8e8ed45d9fc1"
+            },
+            "vertices": [
+              {
+                "x": 450,
+                "y": 1676
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Download",
+              "description": "MAKE RED",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2199,8 +2141,55 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Publish Malware",
-              "description": "",
+              "name": "RAM",
+              "description": "MAKE RED",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "RAM"
+            ],
+            "id": "9a8addc0-c963-444f-b576-1ebb110b3e6e",
+            "source": {
+              "cell": "d21630c1-6f77-4a4a-9a26-78416eaafdac",
+              "port": "6d2c3f55-3731-41e3-b108-a4d1e7b94a9b"
+            },
+            "target": {
+              "cell": "caa8ef73-66f5-4ff5-b277-8790609686a4",
+              "port": "7ca28890-e5eb-47ff-8eac-d357fbd421c7"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Steal Credentials",
+              "description": "MAKE RED",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2211,27 +2200,46 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "32fadbc8-f007-455e-95bc-5f4a35a4dab4",
-                "7c702e7b-f6ed-47be-86bb-b61fef00375f",
-                "ca7f7e4e-4a33-4c38-900e-d3bb87de825b"
+                "33313c6d-9ae9-41ed-a6f2-be9b1daa7416",
+                "39e157c4-652f-4957-8a3e-e92f1c47834c"
               ]
             },
             "labels": [
-              "Publish Malware"
+              "Steal Credentials"
             ],
-            "id": "2fea6e2a-6c5f-49c1-a2c9-3aeb605d2e2c",
+            "id": "d9fe945d-65f7-4d6e-8380-1649f4858b02",
             "source": {
-              "cell": "e9ab127e-bdde-44fd-8202-86223f3de484",
-              "port": "97a6f49d-cd38-45b3-8080-da8d7acccc40"
+              "cell": "caa8ef73-66f5-4ff5-b277-8790609686a4",
+              "port": "237fb227-ea33-44fd-ae5c-b339ca40c3b6"
             },
             "target": {
-              "cell": "265c1c81-434d-4cf5-9f26-3c7adba756e4",
-              "port": "67d7f138-137f-42cc-a4cb-8e8ed45d9fc1"
+              "cell": "32132dc4-0362-4123-b06a-f4e4e0166a47",
+              "port": "47e14e8d-4dd5-41aa-b8dd-1e40f1879ac0"
             },
             "vertices": [
               {
-                "x": 450,
-                "y": 1676
+                "x": 970,
+                "y": 1040
+              },
+              {
+                "x": 880,
+                "y": 1070
+              },
+              {
+                "x": 730,
+                "y": 1100
+              },
+              {
+                "x": 480,
+                "y": 1100
+              },
+              {
+                "x": 330,
+                "y": 1040
+              },
+              {
+                "x": 270,
+                "y": 970
               }
             ]
           },
@@ -3336,7 +3344,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "RAM",
-              "description": "",
+              "description": "MAKE RED",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3383,7 +3391,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Steal Credentials",
-              "description": "",
+              "description": "MAKE RED",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3430,6 +3438,10 @@
               {
                 "x": 290,
                 "y": 2240
+              },
+              {
+                "x": 270,
+                "y": 2180
               }
             ],
             "zIndex": 32
@@ -3454,7 +3466,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Download",
-              "description": "",
+              "description": "MAKE RED",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
