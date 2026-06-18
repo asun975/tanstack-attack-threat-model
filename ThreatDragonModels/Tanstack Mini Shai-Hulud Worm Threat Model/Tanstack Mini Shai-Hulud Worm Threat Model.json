@@ -2125,7 +2125,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "#FF0000",
                 "targetMarker": {
                   "name": "block"
                 },
