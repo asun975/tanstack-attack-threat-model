@@ -42,15 +42,13 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "6b3196cb-0bf7-4e62-bcfc-3c577e075f21",
                 "d9fe945d-65f7-4d6e-8380-1649f4858b02",
                 "595c26cb-e5da-4453-a060-0263385845b8"
               ],
               "containedElements": [
                 "70364b50-191b-4b2a-a55f-efd59b74c7c2",
                 "78f3e145-567e-4603-b38e-704ab552e501",
-                "32132dc4-0362-4123-b06a-f4e4e0166a47",
-                "3157076c-b7a4-408e-affd-3793b2793c17"
+                "32132dc4-0362-4123-b06a-f4e4e0166a47"
               ]
             }
           },
@@ -80,7 +78,6 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "611ea74c-8277-4745-b33a-69aa7b1d181e",
-                "6b3196cb-0bf7-4e62-bcfc-3c577e075f21",
                 "855d723d-eb03-4236-af81-b3c67762c745",
                 "e0f39dca-2bc1-43a0-880c-b0452f859634",
                 "595c26cb-e5da-4453-a060-0263385845b8"
@@ -157,7 +154,6 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "611ea74c-8277-4745-b33a-69aa7b1d181e",
-                "6b3196cb-0bf7-4e62-bcfc-3c577e075f21",
                 "333b7509-b4e3-47bf-b38c-5a2525bb9641",
                 "855d723d-eb03-4236-af81-b3c67762c745",
                 "e0f39dca-2bc1-43a0-880c-b0452f859634",
@@ -169,13 +165,6 @@
                 "5305411d-a7a4-4fa0-bda4-5351ab25409e",
                 "cb0c8b5a-30ad-42b2-8637-1bec823f2980"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -659,7 +648,7 @@
           {
             "position": {
               "x": 184.99999999999818,
-              "y": 900
+              "y": 825
             },
             "size": {
               "width": 120,
@@ -1697,109 +1686,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Download",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Download"
-            ],
-            "id": "c58be83f-8d22-42b0-9c13-465900a94c66",
-            "source": {
-              "cell": "b88e8332-173a-4afd-88b2-95fbcbaf5a45",
-              "port": "966d35e0-4ade-4f25-b005-6880cbaef6bd"
-            },
-            "target": {
-              "cell": "d21630c1-6f77-4a4a-9a26-78416eaafdac",
-              "port": "64dfce89-274e-45ae-8111-3d7b9df4ce83"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "WAVE 2",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "33313c6d-9ae9-41ed-a6f2-be9b1daa7416",
-                "084f783e-2e14-44de-9105-46289abe3254",
-                "c3ac3f3a-f5c0-4f56-bc5c-42b17c56f276"
-              ]
-            },
-            "labels": [
-              "WAVE 2"
-            ],
-            "id": "6b3196cb-0bf7-4e62-bcfc-3c577e075f21",
-            "source": {
-              "cell": "3157076c-b7a4-408e-affd-3793b2793c17",
-              "port": "743c3f03-4ef7-48fc-9421-47bccc21e701"
-            },
-            "target": {
-              "cell": "5305411d-a7a4-4fa0-bda4-5351ab25409e",
-              "port": "67d7f138-137f-42cc-a4cb-8e8ed45d9fc1"
-            },
-            "vertices": [
-              {
-                "x": 510,
-                "y": 830
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Poison",
               "description": "",
               "outOfScope": false,
@@ -1935,7 +1821,7 @@
               },
               {
                 "x": 480,
-                "y": 1080
+                "y": 1100
               },
               {
                 "x": 330,
@@ -2109,124 +1995,51 @@
             ]
           },
           {
-            "position": {
-              "x": 188.74999999999818,
-              "y": 675
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
+            "shape": "flow",
             "attrs": {
-              "text": {
-                "text": "Compromised\nAccount"
-              },
-              "body": {
+              "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
                 "strokeDasharray": null
               }
             },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 12,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "f0b3f4dc-8337-4d1e-b68e-476c5480cb55"
-                },
-                {
-                  "group": "right",
-                  "id": "743c3f03-4ef7-48fc-9421-47bccc21e701"
-                },
-                {
-                  "group": "bottom",
-                  "id": "966d35e0-4ade-4f25-b005-6880cbaef6bd"
-                },
-                {
-                  "group": "left",
-                  "id": "1844897f-6264-4e5c-b47d-d5ac241b0c72"
-                }
-              ]
-            },
-            "id": "3157076c-b7a4-408e-affd-3793b2793c17",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
-              "type": "tm.Actor",
-              "name": "Compromised\nAccount",
-              "description": "In the case of the 2nd wave (@antv attack) where they compromised a @antv account",
-              "isTrustBoundary": false,
+              "type": "tm.Flow",
+              "name": "Download",
+              "description": "",
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
             },
-            "children": [
-              "38d78882-3c61-4244-a8ff-232ab17be95f"
-            ]
+            "labels": [
+              "Download"
+            ],
+            "id": "c58be83f-8d22-42b0-9c13-465900a94c66",
+            "source": {
+              "cell": "b88e8332-173a-4afd-88b2-95fbcbaf5a45",
+              "port": "966d35e0-4ade-4f25-b005-6880cbaef6bd"
+            },
+            "target": {
+              "cell": "d21630c1-6f77-4a4a-9a26-78416eaafdac",
+              "port": "64dfce89-274e-45ae-8111-3d7b9df4ce83"
+            },
+            "vertices": []
           },
           {
             "position": {
